@@ -1,0 +1,39 @@
+{
+  "Physical Properties": {
+    "a_p": 100e-6,
+    "a_n": -100e-6,
+    "s_p": 1e5,
+    "s_n": 1e5,
+    "k_p": 1e0,
+    "k_n": 1e0,
+    "k_i": 1e-1,
+    "h_rh": 1e5,
+    "h_rc": 1e3,
+    "h_sh": 1e4,
+    "h_sc": 1e4
+  },
+  "Device Design": {
+    "area_p": 1e-08,
+    "area_n": 1e-08,
+    "ff": 0.5,
+    "l_min": 1e-6,
+    "l_max": 1e-2,
+    "m": 1.0,
+    "t_rh": 305.0,
+    "t_rc": 300.0
+  },
+  "Solver": {
+    "n_steps": 1000,
+    "log_steps": true,
+    "n_iter": 0,
+    "x_tol": 1.49012e-08
+  },
+  "Initial Conditions": {
+    "q_h": 1.0,
+    "t_sh": 305.0,
+    "t_s": 303.0,
+    "t_c": 302.0,
+    "t_sc": 300.0,
+    "q_c": 1.0
+  }
+}

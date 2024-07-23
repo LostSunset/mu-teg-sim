@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Beretta"
+    given-names: "Davide"
+    orcid: "0000-0002-7739-7494"
+title: "muTEG-Simulator"
+version: 1.0
+doi:
+date-released: 2024-07-22
+url: "https://github.com/BerriesLab/muTEG-Simulator"
