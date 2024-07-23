@@ -6,7 +6,6 @@ setup(
     author="Davide Beretta",
     author_email="mail.davide.beretta+github@gmail.com",
     description="An app to simulate the device physics of micro Thermoelectric Generators",
-    license="GNU",
     long_description="An app to simulate the device physics of micro Thermoelectric Generators (μTEGs). "
                      "It calculates the power generated, the efficiency of conversion, the device resistance, the open circuit voltage, and the short circuit current "
                      "per unit area as a function of the thermocouple length. "
@@ -18,7 +17,7 @@ setup(
     keywords=["python", "thermoelectric", "physics"],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: GNU License",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
