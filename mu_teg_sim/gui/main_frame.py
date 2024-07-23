@@ -1,8 +1,8 @@
 import tkinter as tk
-from src.mu_teg_sim.gui.input_frame import InputFrame
-from src.mu_teg_sim.gui.simulation_frame import SimulationFrame
-from src.mu_teg_sim.gui.status_bar_frame import StatusBarFrame
-from src.mu_teg_sim.model.model_params import ModelParams
+from mu_teg_sim.gui.input_frame import InputFrame
+from mu_teg_sim.gui.simulation_frame import SimulationFrame
+from mu_teg_sim.gui.status_bar_frame import StatusBarFrame
+from mu_teg_sim.model.model_params import ModelParams
 
 
 class MainFrame(tk.Tk):

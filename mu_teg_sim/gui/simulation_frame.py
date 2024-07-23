@@ -3,7 +3,7 @@ import tkinter.filedialog as filedialog
 import numpy as np
 import matplotlib.figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from src.mu_teg_sim.model.model import Model
+from mu_teg_sim.model.model import Model
 
 
 class SimulationFrame(tk.Frame):

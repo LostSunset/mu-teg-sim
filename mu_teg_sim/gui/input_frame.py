@@ -1,7 +1,7 @@
 import tkinter as tk
 import tkinter.ttk as ttk
 import tkinter.filedialog
-from src.mu_teg_sim.utils.tk_variables import tk_var_converter
+from mu_teg_sim.utils.tk_variables import tk_var_converter
 import json
 
 

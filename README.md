@@ -187,7 +187,7 @@ button loads a .json file containing previously saved parameters.
 
 The structure of the file to be loaded must adhere to the format shown below, which includes the default values for the
 parameters. A template file is available
-at [model_params_template.json](src/mu_teg_sim/model/model_params_template.json) for users to edit as needed.
+at [model_params_template.json](docs/model_params_template.json) for users to edit as needed.
 Please note that all values are saved in SI units.
 
 ```json

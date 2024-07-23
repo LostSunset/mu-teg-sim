@@ -1,11 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="mu-teg-sim",
-    version="1.0",
+    name="mu_teg_sim",
+    version="1.0.0",
     author="Davide Beretta",
     author_email="mail.davide.beretta+github@gmail.com",
     description="An app to simulate the device physics of micro Thermoelectric Generators",
+    license="GNU",
     long_description="An app to simulate the device physics of micro Thermoelectric Generators (μTEGs). "
                      "It calculates the power generated, the efficiency of conversion, the device resistance, the open circuit voltage, and the short circuit current "
                      "per unit area as a function of the thermocouple length. "
@@ -24,7 +25,8 @@ setup(
     install_requires=[],
     entry_points={
         'console_scripts': [
-            "mu-teg-sim=src.mu_teg_sim.cli:main",
+            "mu_teg_sim=mu_teg_sim.cli.cli:main",
         ]
-    }
+    },
+    include_package_data=False,
 )

@@ -1,4 +1,4 @@
-from src.mu_teg_sim.gui.main_frame import MainFrame
+from mu_teg_sim.gui.main_frame import MainFrame
 
 if __name__ == "__main__":
     app = MainFrame()
