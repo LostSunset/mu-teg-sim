@@ -68,7 +68,7 @@ class ModelParams:
         return params_to_convert
 
     def validate_params(self):
-        """ Run validate on all parameters. """
+        """ Validate all parameters. """
         for block in self.params.keys():
             for param in self.params[block].keys():
                 if not self.params[block][param].validate():

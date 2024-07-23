@@ -78,7 +78,7 @@ class InputFrame(tk.Frame):
         except (OSError, TypeError) as e:
             self.main_frame.frame_status_bar.text.set(value=f"Attention! Data not saved. Error: {e}")
             return
-        self.main_frame.frame_status_bar.text.set(value=f"Params saved to {file_path}...")
+        self.main_frame.frame_status_bar.text.set(value=f"Params saved to {file_path}.")
 
     def _load_params_from_json_file_on_disc(self, file_path: str):
         """ Validate parameters in loaded file
@@ -99,12 +99,12 @@ class InputFrame(tk.Frame):
 
                 # Check data type
                 try:
-                    datatype = tk_var_converter(var=self.main_frame.model_params.params[block][param].get_current_value())
+                    datatype = tk_var_converter(var=self.main_frame.model_params.params[block][param].current_value)
                     datatype(params_to_load[block][param])
                 except (TypeError, ValueError):
                     self.main_frame.frame_status_bar.text.set(
                         value=f"File '{file_path}' corrupted! Param '{param}' is type '{type(param)}' but must be type "
-                              f"'{tk_var_converter(var=self.main_frame.model_params.params[block][param].get_current_value())}'.")
+                              f"'{tk_var_converter(var=self.main_frame.model_params.params[block][param].current_value)}'.")
                     return
 
                 # Check interval

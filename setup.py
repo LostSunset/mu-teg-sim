@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="mu_teg_sim",
+    name="mu-teg-sim",
     version="1.0",
     author="Davide Beretta",
     author_email="mail.davide.beretta+github@gmail.com",
@@ -11,7 +11,7 @@ setup(
                      "per unit area as a function of the thermocouple length. "
                      "This app is designed for scientists, researchers, and engineers who want to simulate the device physics of μTEGs, "
                      "to analyze performance metrics and optimize designs for various applications.",
-    url="https://github.com/berrieslab/mu-teg-sim",
+    url="https://github.com/BerriesLab/mu-teg-sim",
     readme="README.md",
     packages=find_packages(),
     keywords=["python", "thermoelectric", "physics"],

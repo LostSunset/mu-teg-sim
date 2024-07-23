@@ -4,8 +4,8 @@ authors:
   - family-names: "Beretta"
     given-names: "Davide"
     orcid: "0000-0002-7739-7494"
-title: "muTEG-Simulator"
+title: "mu-teg-sim"
 version: 1.0
 doi:
 date-released: 2024-07-22
-url: "https://github.com/BerriesLab/muTEG-Simulator"
+url: "https://github.com/BerriesLab/mu-teg-sim"

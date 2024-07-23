@@ -172,12 +172,3 @@ class SimulationFrame(tk.Frame):
         else:
             self.ax.set_yscale('linear')
         self._update_figure()
-
-    def _convert_params_to_json_compatible_format(self):
-        """ Convert parameters to dictionary format. """
-        data_to_save = {}
-        for block in self.main_frame.model_params.params.keys():
-            data_to_save[block] = {}
-            for param in self.main_frame.model_params.params[block].keys():
-                data_to_save[block][param] = self.main_frame.model_params.params[block][param].get_current_value().get()
-        return data_to_save
