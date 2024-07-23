@@ -1,4 +1,5 @@
 # mu-teg-sim
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12802052.svg)](https://doi.org/10.5281/zenodo.12802052)
 
 An app to simulate the device physics of micro Thermoelectric Generators (μTEGs), based on the work by **D. Beretta et
 al.**, Sustainable Energy Fuels, 2017, 1, 174-190. The app calculates the power generated, the efficiency of conversion,
