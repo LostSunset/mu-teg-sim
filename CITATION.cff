@@ -6,6 +6,6 @@ authors:
     orcid: "0000-0002-7739-7494"
 title: "mu-teg-sim"
 version: 1.0.0
-doi:
+doi: https://doi.org/10.5281/zenodo.12802052
 date-released: 2024-07-22
 url: "https://github.com/BerriesLab/mu-teg-sim"
