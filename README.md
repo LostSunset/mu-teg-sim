@@ -56,7 +56,7 @@ referenced in this application.
 ### Launching the GUI from terminal
 The app can be launched from terminal after installation by typing 
 ```bash 
-mu-teg-sim
+mu_teg_sim
 ``` 
 
 ### Main window
