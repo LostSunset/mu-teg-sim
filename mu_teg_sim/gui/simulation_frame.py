@@ -58,7 +58,7 @@ class SimulationFrame(tk.Frame):
         self.lines = {"p": self.ax.plot([], [], label=r"Power ($\mathrm{\mu W/cm^{2}}$)")[0],
                       "e": self.ax.plot([], [], label="Efficiency")[0],
                       "r": self.ax.plot([], [], label=r"Resistance ($\mathrm{\Omega/cm^2}$)")[0],
-                      "v": self.ax.plot([], [], label=r"VOC ($\mathrm{mW/cm^{2}}$)")[0],
+                      "v": self.ax.plot([], [], label=r"VOC ($\mathrm{mV/cm^{2}}$)")[0],
                       "i": self.ax.plot([], [], label=r"SSC ($\mathrm{A/cm^{2}}$)")[0]}
         self._update_figure()
         # Add check buttons to toggle between LogX/LinX and LogY/LinY
